@@ -9,8 +9,8 @@ import pl.daniels.jaxb.Shiporder;
 public class ShiporderServiceImpl implements ShiporderService {
 
 	@Override
-	public String getShipOrder(String shiporder) {
-		return "status ok - Result: " + shiporder;
+	public String getOrder(String order) {
+		return "status ok - Result: " + order;
 	}
 
 	@Override

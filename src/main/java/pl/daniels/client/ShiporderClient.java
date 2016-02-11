@@ -19,7 +19,7 @@ public class ShiporderClient {
  
         ShiporderService shiporderService = service.getPort(ShiporderService.class);
  
-        System.out.println(shiporderService.getShipOrder("daniels"));
+        System.out.println(shiporderService.getOrder("order1"));
 	}
 
 }

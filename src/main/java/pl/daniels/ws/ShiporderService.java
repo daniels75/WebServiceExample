@@ -14,7 +14,7 @@ import pl.daniels.jaxb.Shiporder;
 public interface ShiporderService {
 	
 	@WebMethod
-	public String getShipOrder(String shiporder);
+	public String getOrder(String order);
 	
 	@WebMethod
 	public String getShipDetails(ShipData shipData);
